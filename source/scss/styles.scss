@@ -1,13 +1,12 @@
 @import 'grid';
-
 .wrap {
-  width: 1140px;
-  margin: 0 auto;
+    width: 1140px;
+    text-decoration: underline;
+    margin: 0 auto;
 }
-
 .masthead--container {
-  @include row;
-
-  h1 { font-size: 3 em;}
-
+    @include row;
+    h1 {
+        font-size: 3 em;
+    }
 }

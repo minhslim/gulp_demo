@@ -4,6 +4,7 @@ var gulp  = require('gulp'),
     jshint     = require('gulp-jshint'),
     sass       = require('gulp-sass'),
     concat     = require('gulp-concat'),
+    uglify     = require('gulp-uglify'),
     sourcemaps = require('gulp-sourcemaps'),
 
     input  = {
